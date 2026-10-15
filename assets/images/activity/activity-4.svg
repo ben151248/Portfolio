@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="100%" height="100%">
+  <defs>
+    <linearGradient id="actBg4" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#140f1c"/>
+      <stop offset="50%" stop-color="#231430"/>
+      <stop offset="100%" stop-color="#0d0913"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="500" rx="16" fill="url(#actBg4)"/>
+  <rect x="2" y="2" width="796" height="496" rx="14" fill="none" stroke="#48225e" stroke-width="2"/>
+  
+  <!-- Team / People Collaboration Icon -->
+  <g transform="translate(400, 195)">
+    <!-- Center Person -->
+    <circle cx="0" cy="-20" r="18" fill="#2d1740" stroke="#c084fc" stroke-width="2"/>
+    <path d="M-30,35 C-30,5 -15,0 0,0 C15,0 30,5 30,35 Z" fill="#2d1740" stroke="#c084fc" stroke-width="2"/>
+    <!-- Left Person -->
+    <circle cx="-42" cy="-10" r="13" fill="#20102e" stroke="#a855f7" stroke-width="1.8"/>
+    <path d="M-65,35 C-65,15 -52,10 -40,10 C-36,10 -32,11 -28,13 C-30,20 -30,28 -30,35 Z" fill="#20102e" stroke="#a855f7" stroke-width="1.8"/>
+    <!-- Right Person -->
+    <circle cx="42" cy="-10" r="13" fill="#20102e" stroke="#a855f7" stroke-width="1.8"/>
+    <path d="M65,35 C65,15 52,10 40,10 C36,10 32,11 28,13 C30,20 30,28 30,35 Z" fill="#20102e" stroke="#a855f7" stroke-width="1.8"/>
+  </g>
+
+  <!-- Tag badge -->
+  <rect x="290" y="315" width="220" height="32" rx="16" fill="#321645" stroke="#a855f7" stroke-width="1"/>
+  <text x="400" y="336" font-family="'Prompt', sans-serif" font-size="13" font-weight="600" fill="#c084fc" text-anchor="middle">
+    ACTIVITY PHOTO #04
+  </text>
+
+  <!-- Title & Replace guide -->
+  <text x="400" y="380" font-family="'Prompt', sans-serif" font-size="20" font-weight="600" fill="#f1f5f9" text-anchor="middle">
+    [ พื้นที่แสดงรูปภาพกิจกรรม 04 ]
+  </text>
+  <text x="400" y="415" font-family="'Prompt', sans-serif" font-size="14" fill="#94a3b8" text-anchor="middle">
+    แทนที่ด้วย: assets/images/activity/activity-4.jpg
+  </text>
+</svg>
+

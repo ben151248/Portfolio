@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="100%" height="100%">
+  <defs>
+    <linearGradient id="actBg2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#120e1e"/>
+      <stop offset="50%" stop-color="#1c1430"/>
+      <stop offset="100%" stop-color="#090712"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="500" rx="16" fill="url(#actBg2)"/>
+  <rect x="2" y="2" width="796" height="496" rx="14" fill="none" stroke="#372659" stroke-width="2"/>
+  
+  <!-- Exhibition / Gallery Art Frame Icon -->
+  <g transform="translate(400, 195)">
+    <rect x="-65" y="-45" width="130" height="90" rx="8" fill="#201538" stroke="#a855f7" stroke-width="2"/>
+    <!-- Landscape in frame -->
+    <path d="M-64,25 L-30,-5 L5,20 L30,-15 L64,25 L64,44 L-64,44 Z" fill="#2d1c4f"/>
+    <circle cx="-35" cy="-15" r="9" fill="#c084fc"/>
+  </g>
+
+  <!-- Tag badge -->
+  <rect x="290" y="315" width="220" height="32" rx="16" fill="#2b1a47" stroke="#a855f7" stroke-width="1"/>
+  <text x="400" y="336" font-family="'Prompt', sans-serif" font-size="13" font-weight="600" fill="#c084fc" text-anchor="middle">
+    ACTIVITY PHOTO #02
+  </text>
+
+  <!-- Title & Replace guide -->
+  <text x="400" y="380" font-family="'Prompt', sans-serif" font-size="20" font-weight="600" fill="#f1f5f9" text-anchor="middle">
+    [ พื้นที่แสดงรูปภาพกิจกรรม 02 ]
+  </text>
+  <text x="400" y="415" font-family="'Prompt', sans-serif" font-size="14" fill="#94a3b8" text-anchor="middle">
+    แทนที่ด้วย: assets/images/activity/activity-2.jpg
+  </text>
+</svg>
+

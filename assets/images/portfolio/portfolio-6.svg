@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bg6" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0e101f"/>
+      <stop offset="50%" stop-color="#161833"/>
+      <stop offset="100%" stop-color="#0a0b17"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="500" rx="16" fill="url(#bg6)"/>
+  <rect x="2" y="2" width="796" height="496" rx="14" fill="none" stroke="#2c336b" stroke-width="2"/>
+  
+  <!-- Interactive Controller / Game Dev Icon -->
+  <g transform="translate(400, 195)">
+    <rect x="-65" y="-35" width="130" height="70" rx="20" fill="#1b1e3d" stroke="#6366f1" stroke-width="2.5"/>
+    <!-- D-pad -->
+    <rect x="-45" y="-18" width="10" height="36" rx="3" fill="#31376e"/>
+    <rect x="-58" y="-5" width="36" height="10" rx="3" fill="#31376e"/>
+    <!-- Buttons -->
+    <circle cx="40" cy="-6" r="6" fill="#ec4899"/>
+    <circle cx="28" cy="6" r="6" fill="#38bdf8"/>
+    <circle cx="52" cy="6" r="6" fill="#facc15"/>
+    <circle cx="40" cy="18" r="6" fill="#34d399"/>
+    <!-- Center screen indicator -->
+    <circle cx="-3" cy="2" r="4" fill="#6366f1"/>
+    <circle cx="7" cy="2" r="4" fill="#6366f1"/>
+  </g>
+
+  <!-- Tag badge -->
+  <rect x="300" y="315" width="200" height="32" rx="16" fill="#202447" stroke="#6366f1" stroke-width="1"/>
+  <text x="400" y="336" font-family="'Prompt', sans-serif" font-size="13" font-weight="600" fill="#818cf8" text-anchor="middle">
+    PORTFOLIO ITEM #06
+  </text>
+
+  <!-- Title & Replace guide -->
+  <text x="400" y="380" font-family="'Prompt', sans-serif" font-size="20" font-weight="600" fill="#f1f5f9" text-anchor="middle">
+    [ พื้นที่แสดงรูปภาพผลงาน 06 ]
+  </text>
+  <text x="400" y="415" font-family="'Prompt', sans-serif" font-size="14" fill="#94a3b8" text-anchor="middle">
+    แทนที่ด้วย: assets/images/portfolio/work-6.jpg
+  </text>
+</svg>
+

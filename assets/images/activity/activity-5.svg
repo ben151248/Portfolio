@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="100%" height="100%">
+  <defs>
+    <linearGradient id="actBg5" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0c131a"/>
+      <stop offset="50%" stop-color="#121f2c"/>
+      <stop offset="100%" stop-color="#080e14"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="500" rx="16" fill="url(#actBg5)"/>
+  <rect x="2" y="2" width="796" height="496" rx="14" fill="none" stroke="#1d4052" stroke-width="2"/>
+  
+  <!-- Presentation / Stage / Seminar Icon -->
+  <g transform="translate(400, 195)">
+    <!-- Stage screen -->
+    <rect x="-65" y="-50" width="130" height="75" rx="6" fill="#142637" stroke="#38bdf8" stroke-width="2"/>
+    <line x1="-50" y1="-30" x2="0" y2="-30" stroke="#38bdf8" stroke-width="3" stroke-linecap="round"/>
+    <line x1="-50" y1="-15" x2="30" y2="-15" stroke="#94a3b8" stroke-width="2" stroke-linecap="round"/>
+    <line x1="-50" y1="0" x2="10" y2="0" stroke="#94a3b8" stroke-width="2" stroke-linecap="round"/>
+    <!-- Pie/Chart on screen -->
+    <circle cx="35" cy="-20" r="14" fill="none" stroke="#a855f7" stroke-width="4"/>
+    <path d="M35,-20 L35,-34 A14,14 0 0,1 49,-20 Z" fill="#38bdf8"/>
+    <!-- Podium & Speaker -->
+    <path d="M-20,38 L20,38 L15,55 L-15,55 Z" fill="#20354a"/>
+    <circle cx="0" cy="30" r="7" fill="#38bdf8"/>
+  </g>
+
+  <!-- Tag badge -->
+  <rect x="290" y="315" width="220" height="32" rx="16" fill="#152b3d" stroke="#38bdf8" stroke-width="1"/>
+  <text x="400" y="336" font-family="'Prompt', sans-serif" font-size="13" font-weight="600" fill="#38bdf8" text-anchor="middle">
+    ACTIVITY PHOTO #05
+  </text>
+
+  <!-- Title & Replace guide -->
+  <text x="400" y="380" font-family="'Prompt', sans-serif" font-size="20" font-weight="600" fill="#f1f5f9" text-anchor="middle">
+    [ พื้นที่แสดงรูปภาพกิจกรรม 05 ]
+  </text>
+  <text x="400" y="415" font-family="'Prompt', sans-serif" font-size="14" fill="#94a3b8" text-anchor="middle">
+    แทนที่ด้วย: assets/images/activity/activity-5.jpg
+  </text>
+</svg>
+

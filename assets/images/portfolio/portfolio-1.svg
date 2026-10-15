@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bg1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f111a"/>
+      <stop offset="50%" stop-color="#16192b"/>
+      <stop offset="100%" stop-color="#0a0c14"/>
+    </linearGradient>
+    <linearGradient id="glow1" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38bdf8"/>
+      <stop offset="100%" stop-color="#818cf8"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="500" rx="16" fill="url(#bg1)"/>
+  <rect x="2" y="2" width="796" height="496" rx="14" fill="none" stroke="#252a45" stroke-width="2"/>
+  
+  <!-- Subtle geometric grid pattern -->
+  <g stroke="#1d2238" stroke-width="1" opacity="0.6">
+    <line x1="100" y1="0" x2="100" y2="500"/>
+    <line x1="200" y1="0" x2="200" y2="500"/>
+    <line x1="300" y1="0" x2="300" y2="500"/>
+    <line x1="400" y1="0" x2="400" y2="500"/>
+    <line x1="500" y1="0" x2="500" y2="500"/>
+    <line x1="600" y1="0" x2="600" y2="500"/>
+    <line x1="700" y1="0" x2="700" y2="500"/>
+    <line x1="0" y1="100" x2="800" y2="100"/>
+    <line x1="0" y1="200" x2="800" y2="200"/>
+    <line x1="0" y1="300" x2="800" y2="300"/>
+    <line x1="0" y1="400" x2="800" y2="400"/>
+  </g>
+
+  <!-- Central 3D Cube Icon -->
+  <g transform="translate(400, 200)">
+    <polygon points="0,-70 60,-35 0,0 -60,-35" fill="#1e243d" stroke="#38bdf8" stroke-width="2.5"/>
+    <polygon points="-60,-35 0,0 0,70 -60,35" fill="#181c30" stroke="#38bdf8" stroke-width="2.5"/>
+    <polygon points="0,0 60,-35 60,35 0,70" fill="#282f4d" stroke="#818cf8" stroke-width="2.5"/>
+  </g>
+
+  <!-- Tag badge -->
+  <rect x="300" y="315" width="200" height="32" rx="16" fill="#1b2038" stroke="#38bdf8" stroke-width="1"/>
+  <text x="400" y="336" font-family="'Prompt', sans-serif" font-size="13" font-weight="600" fill="#38bdf8" text-anchor="middle">
+    PORTFOLIO ITEM #01
+  </text>
+
+  <!-- Title & Replace guide -->
+  <text x="400" y="380" font-family="'Prompt', sans-serif" font-size="20" font-weight="600" fill="#f1f5f9" text-anchor="middle">
+    [ พื้นที่แสดงรูปภาพผลงาน 01 ]
+  </text>
+  <text x="400" y="415" font-family="'Prompt', sans-serif" font-size="14" fill="#94a3b8" text-anchor="middle">
+    แทนที่ด้วย: assets/images/portfolio/work-1.jpg
+  </text>
+</svg>
+

@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="100%" height="100%">
+  <defs>
+    <linearGradient id="actBg1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0e131d"/>
+      <stop offset="50%" stop-color="#141c2c"/>
+      <stop offset="100%" stop-color="#0a0c14"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="500" rx="16" fill="url(#actBg1)"/>
+  <rect x="2" y="2" width="796" height="496" rx="14" fill="none" stroke="#22324f" stroke-width="2"/>
+  
+  <!-- Camera / Workshop Activity Icon -->
+  <g transform="translate(400, 195)">
+    <!-- Photo frame corners -->
+    <path d="M-80,-40 L-60,-40 M-80,-40 L-80,-20" stroke="#38bdf8" stroke-width="3" fill="none"/>
+    <path d="M80,-40 L60,-40 M80,-40 L80,-20" stroke="#38bdf8" stroke-width="3" fill="none"/>
+    <path d="M-80,40 L-60,40 M-80,40 L-80,20" stroke="#38bdf8" stroke-width="3" fill="none"/>
+    <path d="M80,40 L60,40 M80,40 L80,20" stroke="#38bdf8" stroke-width="3" fill="none"/>
+    <!-- Center camera icon -->
+    <rect x="-40" y="-22" width="80" height="52" rx="10" fill="#18243b" stroke="#38bdf8" stroke-width="2"/>
+    <path d="M-15,-22 L-10,-32 L10,-32 L15,-22 Z" fill="#20304f"/>
+    <circle cx="0" cy="4" r="16" fill="#101929" stroke="#38bdf8" stroke-width="2"/>
+    <circle cx="0" cy="4" r="8" fill="#38bdf8" opacity="0.6"/>
+  </g>
+
+  <!-- Tag badge -->
+  <rect x="290" y="315" width="220" height="32" rx="16" fill="#182740" stroke="#38bdf8" stroke-width="1"/>
+  <text x="400" y="336" font-family="'Prompt', sans-serif" font-size="13" font-weight="600" fill="#38bdf8" text-anchor="middle">
+    ACTIVITY PHOTO #01
+  </text>
+
+  <!-- Title & Replace guide -->
+  <text x="400" y="380" font-family="'Prompt', sans-serif" font-size="20" font-weight="600" fill="#f1f5f9" text-anchor="middle">
+    [ พื้นที่แสดงรูปภาพกิจกรรม 01 ]
+  </text>
+  <text x="400" y="415" font-family="'Prompt', sans-serif" font-size="14" fill="#94a3b8" text-anchor="middle">
+    แทนที่ด้วย: assets/images/activity/activity-1.jpg
+  </text>
+</svg>
+

@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bg3" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0d141e"/>
+      <stop offset="50%" stop-color="#122033"/>
+      <stop offset="100%" stop-color="#090e17"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="500" rx="16" fill="url(#bg3)"/>
+  <rect x="2" y="2" width="796" height="496" rx="14" fill="none" stroke="#1d3855" stroke-width="2"/>
+  
+  <!-- UI Wireframe / Monitor Icon -->
+  <g transform="translate(400, 195)">
+    <rect x="-70" y="-45" width="140" height="85" rx="8" fill="#132338" stroke="#38bdf8" stroke-width="2"/>
+    <line x1="-70" y1="-25" x2="70" y2="-25" stroke="#234267" stroke-width="1.5"/>
+    <circle cx="-55" cy="-35" r="3" fill="#f87171"/>
+    <circle cx="-45" cy="-35" r="3" fill="#fbbf24"/>
+    <circle cx="-35" cy="-35" r="3" fill="#34d399"/>
+    <!-- Wireframe blocks -->
+    <rect x="-55" y="-12" width="45" height="40" rx="4" fill="#1a3250"/>
+    <rect x="2" y="-12" width="55" height="10" rx="2" fill="#254a75"/>
+    <rect x="2" y="5" width="45" height="6" rx="2" fill="#1d3859"/>
+    <rect x="2" y="16" width="35" height="6" rx="2" fill="#1d3859"/>
+    <!-- Base stand -->
+    <path d="M-15,40 L15,40 L22,55 L-22,55 Z" fill="#1d3855"/>
+  </g>
+
+  <!-- Tag badge -->
+  <rect x="300" y="315" width="200" height="32" rx="16" fill="#152b45" stroke="#38bdf8" stroke-width="1"/>
+  <text x="400" y="336" font-family="'Prompt', sans-serif" font-size="13" font-weight="600" fill="#38bdf8" text-anchor="middle">
+    PORTFOLIO ITEM #03
+  </text>
+
+  <!-- Title & Replace guide -->
+  <text x="400" y="380" font-family="'Prompt', sans-serif" font-size="20" font-weight="600" fill="#f1f5f9" text-anchor="middle">
+    [ พื้นที่แสดงรูปภาพผลงาน 03 ]
+  </text>
+  <text x="400" y="415" font-family="'Prompt', sans-serif" font-size="14" fill="#94a3b8" text-anchor="middle">
+    แทนที่ด้วย: assets/images/portfolio/work-3.jpg
+  </text>
+</svg>
+
